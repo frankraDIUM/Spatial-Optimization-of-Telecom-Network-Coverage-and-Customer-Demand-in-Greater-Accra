@@ -1,9 +1,12 @@
 # Spatial Optimization of Telecom Network Coverage and Customer Demand in Greater Accra
 
-![Final Map Preview](docs/final_mcda_map.png)
+Final Map Preview
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/final_mcda_map.png" />
+</p>
 
 ## Project Overview
-This project develops a geospatial framework to identify coverage gaps, quantify underserved population, and recommend optimal new cell tower locations in Greater Accra, Ghana.
+This project develops a geospatial framework to identify coverage gaps, quantify the underserved population, and recommend optimal new cell tower locations in Greater Accra, Ghana.
 
 **Objective**: Support data-driven network expansion decisions by combining telecom tower data, high-resolution population density, roads, slope, and land use constraints.
 
@@ -30,6 +33,10 @@ This project develops a geospatial framework to identify coverage gaps, quantify
 ## Interactive Map
 Open: [`top_candidates_interactive_full.html`](top_candidates_interactive_full.html)  
 (zoom, click markers for pop served, distances, slope, land use, score)
+Preview:
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Interactive%20map.png" />
+</p>
 
 ## How to Run
 1. Clone repo
