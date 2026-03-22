@@ -34,7 +34,3 @@ This project develops a geospatial framework to identify coverage gaps, quantify
 Open: [`top_candidates_interactive_full.html`](top_candidates_interactive_full.html)  
 (zoom, click markers for pop served, distances, slope, land use, score)
 
-## How to Run
-1. Clone repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run `notebooks/Telecom_Accra_Optimization.ipynb`
