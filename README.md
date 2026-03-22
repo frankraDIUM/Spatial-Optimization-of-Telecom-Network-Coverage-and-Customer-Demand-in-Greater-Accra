@@ -2,7 +2,7 @@
 
 Final Map Preview
 <p align="center">
-  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/final_mcda_map.png" />
+  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Interactive%20map.png" />
 </p>
 
 ## Project Overview
@@ -33,10 +33,6 @@ This project develops a geospatial framework to identify coverage gaps, quantify
 ## Interactive Map
 Open: [`top_candidates_interactive_full.html`](top_candidates_interactive_full.html)  
 (zoom, click markers for pop served, distances, slope, land use, score)
-Preview:
-<p align="center">
-  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Interactive%20map.png" />
-</p>
 
 ## How to Run
 1. Clone repo
