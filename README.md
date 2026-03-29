@@ -1,4 +1,4 @@
-📡 # Spatial Optimization of Telecom Network Coverage and Customer Demand in Greater Accra
+#📡 Spatial Optimization of Telecom Network Coverage and Customer Demand in Greater Accra
 
 Final Map Preview
 <p align="center">
