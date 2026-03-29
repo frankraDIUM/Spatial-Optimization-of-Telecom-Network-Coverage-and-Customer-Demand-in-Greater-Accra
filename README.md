@@ -5,11 +5,13 @@ Final Map Preview
   <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Interactive%20map.png" />
 </p>
 --
+
 Dashboard Metrics
 <p align="center">
   <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Telecom.png" />
 </p>
 --
+
 ## Project Overview
 End-to-end geospatial project to identify coverage gaps and recommend optimal new cell tower locations in Greater Accra, Ghana. 
 The solution combines telecom tower data, high-resolution population density, roads, terrain, and land use to generate ranked candidate sites using Multi-Criteria Decision Analysis (MCDA).
