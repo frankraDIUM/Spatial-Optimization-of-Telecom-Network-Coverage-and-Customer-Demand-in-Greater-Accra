@@ -4,29 +4,34 @@ Final Map Preview
 <p align="center">
   <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Interactive%20map.png" />
 </p>
+--
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Telecom.png" />
+</p>
 
 ## Project Overview
-This project develops a geospatial framework to identify coverage gaps, quantify the underserved population, and recommend optimal new cell tower locations in Greater Accra, Ghana.
+End-to-end geospatial project to identify coverage gaps and recommend optimal new cell tower locations in Greater Accra, Ghana. 
+The solution combines telecom tower data, high-resolution population density, roads, terrain, and land use to generate ranked candidate sites using Multi-Criteria Decision Analysis (MCDA).
 
 **Objective**: Support data-driven network expansion decisions by combining telecom tower data, high-resolution population density, roads, slope, and land use constraints.
 
-**Key Deliverables**:
-- Coverage footprint (fixed & dynamic buffers)
-- Underserved population map (~565,000 people)
-- 8 high-priority clusters + 20 ranked candidate tower sites
-- Interactive Folium map & static visualization
-- Full MCDA scoring (pop served, tower distance, road access, slope, land use)
+## Key Features
+- Dynamic coverage modeling using OpenCelliD tower range data
+- Underserved population quantification (~565,000 people identified)
+- DBSCAN clustering of high-density gap zones
+- Full MCDA scoring: Population served, distance to existing towers, road accessibility, slope, and land use constraints (ESA WorldCover 2021)
+- Ranked top 20 candidate tower locations
+- Interactive Folium map and Power BI dashboard
 
-## Methodology
-1. **Data Sources** — OpenCelliD towers, WorldPop 2020 (100 m), ESA WorldCover 2021 (10 m), OSM roads, DEM
-2. **Coverage Modeling** — 2 km fixed + range-based dynamic buffers → dissolved unions
-3. **Demand Mapping** — Underserved population raster (outside coverage)
-4. **Clustering** — DBSCAN on high-density underserved pixels → filtered clusters ≥5,000 pop
-5. **MCDA Scoring** — Weighted: pop served (40%), dist to tower (25%), dist to road (15%), slope penalty (10%), land use penalty
-6. **Visualization** — Matplotlib static map + Folium interactive HTML
+## Technologies Used
+- **Python**: GeoPandas, Rasterio, Scikit-learn, SciPy, Folium, Contextily, Pandas, NumPy
+- **GIS**: QGIS (validation & clipping)
+- **Visualization**: Power BI, Matplotlib, Folium (HTML)
+- **Data**: OpenCelliD, WorldPop 2020, ESA WorldCover 2021, OSM Roads, SRTM DEM
 
 ## Results
-- **Underserved population**: ~564,832 (10.7% of 5.295 million)
+- **Population coverage rate**: 89.3% (dynamic buffers)
+-  **Underserved population**: ~564,832 (10.7% of 5.295 million)
 - **Clusters identified**: 8 (after filtering)
 - **Top candidates**: Ranked by full MCDA score (see `top_tower_candidates_full_mcda.geojson`)
 
