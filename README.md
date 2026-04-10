@@ -6,9 +6,9 @@ Final Map Preview
 </p>
 --
 
-Dashboard Metrics
+Dashboard
 <p align="center">
-  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Telecom.png" />
+  <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/telecom.gif" />
 </p>
 --
 
