@@ -4,13 +4,13 @@ Final Map Preview
 <p align="center">
   <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/Interactive%20map.png" />
 </p>
---
+---
 
 Dashboard
 <p align="center">
   <img src="https://github.com/frankraDIUM/Spatial-Optimization-of-Telecom-Network-Coverage-and-Customer-Demand-in-Greater-Accra/blob/main/telecom.gif" />
 </p>
---
+---
 
 ## Project Overview
 End-to-end geospatial project to identify coverage gaps and recommend optimal new cell tower locations in Greater Accra, Ghana. 
